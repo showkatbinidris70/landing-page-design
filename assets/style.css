@@ -1,0 +1,239 @@
+body {
+    font-family: Poppins, serif;
+}
+
+.help-and-support-bg-image {
+    background-image : url('/assets/images/wylly-suhendra-Swk4G_xi_uM-unsplash.png');
+    background-size  : cover;
+    background-repeat: no-repeat;
+}
+
+.help-and-support .title {
+    padding-top  : 45px;
+    color        : #FFF;
+    font-family  : Poppins;
+    font-size    : 40px;
+    font-style   : normal;
+    font-weight  : 600;
+    line-height  : normal;
+    margin-bottom: 11px;
+}
+
+.help-and-support .message {
+    color      : #2E2E2E;
+    text-align : center;
+    font-family: Poppins;
+    font-size  : 20px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 200% */
+}
+
+.help-and-support .form-control {
+    height       : 64px;
+    border-radius: 5px;
+    background   : #FFF;
+}
+
+.help-and-support .search-icon {
+    right : 15px;
+    bottom: 15px;
+}
+
+.tab-nav-items-style {
+    color          : #2E2E2E;
+    font-family    : Poppins;
+    font-size      : 20px;
+    font-style     : normal;
+    font-weight    : 500;
+    line-height    : normal;
+    display        : flex;
+    width          : 124px;
+    padding        : 10px;
+    justify-content: center;
+    align-items    : center;
+    gap            : 10px;
+}
+
+.nav-link.active {
+    display         : flex;
+    width           : 124px;
+    padding         : 10px;
+    justify-content : center;
+    align-items     : center;
+    gap             : 10px;
+    background-color: #4BA13A;
+    color           : #FFF;
+    font-family     : Poppins;
+    font-size       : 20px;
+    font-style      : normal;
+    font-weight     : 600;
+    line-height     : normal;
+}
+
+.accordion-button {
+    color      : #2E2E2E;
+    font-family: Poppins;
+    font-size  : 15px;
+    font-style : normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.accordion-body {
+    color      : #5F5F5F;
+    font-family: Poppins;
+    font-size  : 14px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.accordion-button:focus {
+    box-shadow  : none;
+    border-color: #4BA13A;
+}
+
+.accordion-button {
+    /* border-bottom: 1px solid #2E2E2E; */
+}
+
+.accordion-item {
+    border: 1px solid #4BA13A !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color           : #2E2E2E;
+    background-color: transparent;
+}
+
+
+/* help and contact */
+
+.help-and-contact-title {
+    color      : #000;
+    text-align : center;
+    font-family: Poppins;
+    font-size  : 30px;
+    font-style : normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.help-and-contact .card-title {
+    color      : #2E2E2E;
+    font-family: Poppins;
+    font-size  : 20px;
+    font-style : normal;
+    font-weight: 600;
+    margin-top : 5px;
+}
+
+.help-and-contact .card-body {
+    color             : #616161;
+    font-family       : Poppins;
+    font-size         : 13px;
+    font-style        : normal;
+    font-weight       : 400;
+    line-height       : 20px;
+    overflow          : hidden;
+    display           : -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.help-and-contact .get-help-btn {
+    color      : #4BA13A;
+    font-family: Poppins;
+    font-size  : 16px;
+    font-style : normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+/* populer-qustion-and-ans */
+
+.populer-qustion-and-ans {
+    background-color: #f9f9f9;
+    padding         : 59px 0px;
+}
+
+
+/* get-in-touch */
+
+.get-in-touch {
+    padding: 87px 0px;
+}
+
+.get-in-touch .contact-us {
+    padding         : 89px;
+    border-radius   : 20px;
+    background-color: #FFF;
+    box-shadow      : 0px 0px 10px 2px rgba(0, 0, 0, 0.10);
+}
+
+.get-in-touch .contact-us h4 {
+    color      : #000;
+    font-family: Poppins;
+    font-size  : 30px;
+    font-style : normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding    : 0px 80px 0px 0px;
+}
+
+.get-in-touch .contact-us p {
+    color      : #5F5F5F;
+    font-family: Poppins;
+    font-size  : 20px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: normal;
+    padding    : 0px 80px 0px 0px;
+}
+
+#cloud {
+    color      : #FFF;
+    text-align : center;
+    font-family: Poppins;
+    font-size  : 35px;
+    font-style : normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.get-in-touch .contact-us .contact-us-btn {
+    width      : 255px;
+    height     : 80px;
+    color      : #FFF;
+    text-align : center;
+    font-family: Poppins;
+    font-size  : 35px;
+    font-style : normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+/* media query */
+@media screen and (min-width:280px) and (max-width:575.98px) {
+    .get-in-touch .contact-us {
+        padding: 20px;
+    }
+
+    .get-in-touch .contact-us h4 {
+        font-size: 20px;
+        padding  : 0px 0px 0px 0px;
+    }
+
+    .get-in-touch .contact-us p {
+        color      : #5F5F5F;
+        font-family: Poppins;
+        font-size  : 20px;
+        font-style : normal;
+        font-weight: 400;
+        line-height: normal;
+        padding    : 0px 10px 0px 0px;
+    }
+}
